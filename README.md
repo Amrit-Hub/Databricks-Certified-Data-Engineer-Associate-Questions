@@ -7,7 +7,7 @@ These are memory based questions for the assessment conducted on Nov 2022
 ## Suggestions
 
 - [Practice these notebooks throroughly](https://github.com/databricks-academy/data-engineering-with-databricks-english)
-- Practice "practice exam" questions available in this repo.
+- Practice "PracticeExam"(/PracticeExam-DataEngineerAssociate.pdf) questions available in this repo.
 - Every options in "practice exam" question becomes a question.
 
 
