@@ -7,8 +7,8 @@ These are memory based questions for the assessment conducted on Nov 2022
 ## Suggestions
 
 - [Practice these notebooks throroughly](https://github.com/databricks-academy/data-engineering-with-databricks-english)
-- Practice "PracticeExam"(/PracticeExam-DataEngineerAssociate.pdf) questions available in this repo.
-- Every options in "practice exam" question becomes a question.
+- Practice ["PracticeExam"](/PracticeExam-DataEngineerAssociate.pdf) questions available in this repo.
+- Every options in ["PracticeExam"](/PracticeExam-DataEngineerAssociate.pdf) question becomes a question in actual exam.
 
 
 
@@ -17,7 +17,7 @@ These are memory based questions for the assessment conducted on Nov 2022
 #### Question 1
 Data not available due to - vacuum or merge or optimize command
 #### Question 2
-Delta lake becomes - single source of truth
+Delta lake becomes - single source of truth based question
 #### Question 3
 Delta table contains - single/multiple files for history, metadata and data
 #### Question 4
@@ -37,13 +37,13 @@ Question on INSERT OVERWRITE
 #### Question 11
 Question on Z order for practice exam
 #### Question 12
-Why Copy into is not working in this code - refer https://docs.databricks.com/sql/language-manual/delta-copy-into.html
+Why Copy into is not working in this code - [reference](https://docs.databricks.com/sql/language-manual/delta-copy-into.html)
 #### Question 13
-Expect or Drop on violation in DLT
+Expect or Drop on violation in DLT - [reference](https://docs.databricks.com/workflows/delta-live-tables/delta-live-tables-expectations.html)
 #### Question 14
-Unity catalog Grant All priviledges - When
+Unity catalog Grant All priviledges - When to use?
 #### Question 15
-Unity catalog Grant Usage- When
+Unity catalog Grant Usage- When to use?
 #### Question 16
 Advantage of array function
 #### Question 17
