@@ -1,6 +1,4 @@
 
-# Databricks Certified Data Engineer Associate Questions
-
 These are memory based questions for the assessment conducted on Nov 2022
 
 
