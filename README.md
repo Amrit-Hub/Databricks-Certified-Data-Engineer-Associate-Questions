@@ -12,7 +12,7 @@ These are memory based questions for the assessment conducted on Nov 2022
 
 
 
-## Questions asked:-
+## Questions
 
 #### Question 1
 Data not available due to - vacuum or merge or optimize command
