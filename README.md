@@ -7,7 +7,7 @@ These are memory based questions for the assessment conducted on Nov 2022
 - [Practice these notebooks throroughly](https://github.com/databricks-academy/data-engineering-with-databricks-english)
 - Practice ["PracticeExam"](/PracticeExam-DataEngineerAssociate.pdf) questions available in this repo.
 - Every options in ["PracticeExam"](/PracticeExam-DataEngineerAssociate.pdf) question becomes a question in actual exam.
-- Read [Databricks Certified Associate Data Engineer Exam](/Databricks%20Certified%20Associate%20Data%20Engineer%20Exam.pdf) thoroughly.
+- Read [Databricks Certified Associate Data Engineer Exam](https://github.com/Amrit-Hub/Databricks-Certified-Data-Engineer-Associate-Questions/blob/main/Databricks%20Certified%20Associate%20Data%20Engineer%20Exam.pdf) thoroughly.
 
 
 
