@@ -6,6 +6,7 @@
 ## Requirements with free resources
 
  - [Spark Fundamentals](https://courses.hadoopinrealworld.com/p/spark-starter-kit) [Mandatory]
+ - [Hadoop Fundamentals](https://www.hadoopinrealworld.com/starterkit/) [Mandatory]
  - [Azure Data Factory](https://www.youtube.com/playlist?list=PLMWaZteqtEaLTJffbbBzVOv9C0otal1FO) [Mandatory]
  - [Azure Synapse Analytics](https://www.youtube.com/playlist?list=PLMWaZteqtEaIZxPCw_0AO1GsqESq3hZc6) [Optional]
  - [Azure Databricks](https://www.youtube.com/playlist?list=PLMWaZteqtEaKi4WAePWtCSQCfQpvBT2U1) [Mandatory]
