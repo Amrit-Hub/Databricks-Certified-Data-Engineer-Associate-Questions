@@ -1,15 +1,13 @@
-
 These are memory based questions for the assessment conducted on Nov 2022
-
 
 ## Suggestions
 
-- [Practice these notebooks throroughly](https://github.com/databricks-academy/data-engineering-with-databricks-english)
-- Practice ["PracticeExam"](/PracticeExam-DataEngineerAssociate.pdf) questions available in this repo.
-- Every options in ["PracticeExam"](/PracticeExam-DataEngineerAssociate.pdf) question becomes a question in actual exam.
+- [Practice these notebooks throroughly](/data-engineering-with-databricks.dbc)
+- Practice [&#34;PracticeExam&#34;](/PracticeExam-DataEngineerAssociate.pdf) questions available in this repo.
+- Every options in [&#34;PracticeExam&#34;](/PracticeExam-DataEngineerAssociate.pdf) question becomes a question in actual exam.
 - Read [Databricks Certified Associate Data Engineer Exam](/DatabricksCertifiedAssociateDataEngineerExam.pdf) thoroughly.
-
-
+- Read [Manage data with delta lake](/de-mod-3-manage-data-with-delta-lake.pdf)
+- Read [Build pipeline with DLT](/de-mod-4-build-data-pipelines-with-delta-live-tables.pdf)
 
 ## Questions
 
@@ -34,7 +32,7 @@ These are memory based questions for the assessment conducted on Nov 2022
 19. Which physical object to create for 10 tables so that other teams can use
 20. Delete metadatd but retain file - external table
 21. When "Streaming Live"- refer practice exam
-22. PII data using comment- Create table <tbl> comment "Contains PII"
+22. PII data using comment- Create table `<tbl>` comment "Contains PII"
 23. describe database customer360 to get path
 24. Adv of gold table over silver table
 25. Bronze vs raw table
@@ -58,8 +56,6 @@ These are memory based questions for the assessment conducted on Nov 2022
 43. Check failed status of a task in DLT pipeline?
 44. Practice exam Q42 - webhook or email alert?
 45. To speed up query - use cluster pools?
-
-
 
 ## Lessons Learned
 
