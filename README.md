@@ -13,7 +13,8 @@ These are memory based questions for the assessment conducted on Nov 2022
 - Read [Databricks Certified Associate Data Engineer Exam](/files/DatabricksCertifiedAssociateDataEngineerExam.pdf) thoroughly.
 - Read [Manage data with delta lake](/files/de-mod-3-manage-data-with-delta-lake.pdf)
 - Read [Build pipeline with DLT](/files/de-mod-4-build-data-pipelines-with-delta-live-tables.pdf)
-
+  
+Repo [link](https://github.com/Amrit-Hub/Databricks-Certified-Data-Engineer-Associate-Questions)
 ## Questions
 
 1. Data not available due to - vacuum or merge or optimize command
