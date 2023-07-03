@@ -2,7 +2,13 @@ These are memory based questions for the assessment conducted on Nov 2022
 
 ## Suggestions
 
-- [Practice these notebooks throroughly](/files/data-engineering-with-databricks.dbc)
+- [Practice from these notebooks throroughly](/files/data-engineering-with-databricksv314.dbc) and below pdf
+  a. [de-mod-0-get-started-with-pyspark-programming](/files/de-mod-0-get-started-with-pyspark-programming.pdf)
+  b. [de-mod-1-get-started-with-databricks-data-science-and-engineering-workspace
+  ](/files/de-mod-1-get-started-with-databricks-data-science-and-engineering-workspace.pdf)c. [de-mod-2-transform-data-with-spark](/files/de-mod-2-transform-data-with-spark.pdf)
+  d. [de-mod-3-manage-data-with-delta-lake](/files/de-mod-3-manage-data-with-delta-lake.pdf)
+  e. [de-mod-4-build-data-pipelines-with-delta-live-tables](/files/de-mod-4-build-data-pipelines-with-delta-live-tables.pdf)
+  f.  [de-mod-5-deploy-workloads-with-databricks-workflows](/files/de-mod-5-deploy-workloads-with-databricks-workflows.pdf)
 - Practice [&#34;PracticeExam&#34;](/files/PracticeExam-DataEngineerAssociate.pdf) questions available in this repo.
 - Every options in [&#34;PracticeExam&#34;](/files/PracticeExam-DataEngineerAssociate.pdf) question becomes a question in actual exam.
 - Read [Databricks Certified Associate Data Engineer Exam](/files/DatabricksCertifiedAssociateDataEngineerExam.pdf) thoroughly.
