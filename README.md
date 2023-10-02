@@ -1,5 +1,3 @@
-These are memory based questions for the assessment v2 conducted on Nov 2022
-
 ## Suggestions
 
 - [Practice from these notebooks throroughly](/files/data-engineering-with-databricksv314.dbc) and below pdf
