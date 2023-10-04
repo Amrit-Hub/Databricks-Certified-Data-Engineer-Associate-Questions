@@ -1,5 +1,6 @@
 # Databricks Certified Data Engineer Associate Questions v2
 ## Suggestions
+
 - [Practice from these notebooks throroughly](/files/data-engineering-with-databricksv314.dbc) and below pdf
   * [de-mod-0-get-started-with-pyspark-programming](/files/de-mod-0-get-started-with-pyspark-programming.pdf)
   * [de-mod-1-get-started-with-databricks-data-science-and-engineering-workspace](/files/de-mod-1-get-started-with-databricks-data-science-and-engineering-workspace.pdf)c. [de-mod-2-transform-data-with-spark](/files/de-mod-2-transform-data-with-spark.pdf)
