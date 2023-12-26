@@ -3,7 +3,8 @@
 
 - [Practice from these notebooks throroughly](/files/data-engineering-with-databricksv314.dbc) and below pdf
   * [de-mod-0-get-started-with-pyspark-programming](/files/de-mod-0-get-started-with-pyspark-programming.pdf)
-  * [de-mod-1-get-started-with-databricks-data-science-and-engineering-workspace](/files/de-mod-1-get-started-with-databricks-data-science-and-engineering-workspace.pdf)c. [de-mod-2-transform-data-with-spark](/files/de-mod-2-transform-data-with-spark.pdf)
+  * [de-mod-1-get-started-with-databricks-data-science-and-engineering-workspace](/files/de-mod-1-get-started-with-databricks-data-science-and-engineering-workspace.pdf)
+  * [de-mod-2-transform-data-with-spark](/files/de-mod-2-transform-data-with-spark.pdf)
   * [de-mod-3-manage-data-with-delta-lake](/files/de-mod-3-manage-data-with-delta-lake.pdf)
   * [de-mod-4-build-data-pipelines-with-delta-live-tables](/files/de-mod-4-build-data-pipelines-with-delta-live-tables.pdf)
   * [de-mod-5-deploy-workloads-with-databricks-workflows](/files/de-mod-5-deploy-workloads-with-databricks-workflows.pdf)
