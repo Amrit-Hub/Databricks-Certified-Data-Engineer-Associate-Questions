@@ -15,7 +15,7 @@
 - Read [Build pipeline with DLT](/files/de-mod-4-build-data-pipelines-with-delta-live-tables.pdf)
   
 Repo [link](https://github.com/Amrit-Hub/Databricks-Certified-Data-Engineer-Associate-Questions)
-## Questions
+## Topics
 
 1. Data not available due to - vacuum or merge or optimize command
 2. Delta lake becomes - single source of truth based question
