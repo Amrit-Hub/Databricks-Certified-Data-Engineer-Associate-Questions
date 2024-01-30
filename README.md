@@ -8,6 +8,8 @@
   * [de-mod-3-manage-data-with-delta-lake](/files/de-mod-3-manage-data-with-delta-lake.pdf)
   * [de-mod-4-build-data-pipelines-with-delta-live-tables](/files/de-mod-4-build-data-pipelines-with-delta-live-tables.pdf)
   * [de-mod-5-deploy-workloads-with-databricks-workflows](/files/de-mod-5-deploy-workloads-with-databricks-workflows.pdf)
+  * [Udemy Practice](https://www.udemy.com/course/practice-exams-databricks-certified-data-engineer-associate/)[You can try this. Use Udemy for Bussiness for free]
+  * [Udemy Practice](https://www.udemy.com/course/databricks-certified-data-engineer-associate-practice-tests/)[You can try this. Use Udemy for Bussiness for free]
 - Practice [&#34;PracticeExam&#34;](/files/PracticeExam-DataEngineerAssociate.pdf) questions available in this repo.
 - Every options in [&#34;PracticeExam&#34;](/files/PracticeExam-DataEngineerAssociate.pdf) question becomes a question in actual exam.
 - Read [Databricks Certified Associate Data Engineer Exam](/files/DatabricksCertifiedAssociateDataEngineerExam.pdf) thoroughly.
