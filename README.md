@@ -1,4 +1,4 @@
-# Databricks Certified Data Engineer Associate Questions v2
+# Databricks Certified Data Engineer Associate Questions v2 & v3
 ## Suggestions
 
 - [Practice from these notebooks throroughly](/files/data-engineering-with-databricksv314.dbc) and below pdf
