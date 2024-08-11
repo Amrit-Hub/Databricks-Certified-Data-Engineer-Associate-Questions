@@ -21,51 +21,72 @@ Repo [link](https://github.com/Amrit-Hub/Databricks-Certified-Data-Engineer-Asso
 
 ## Topics
 
-1. What could cause data to be unavailable in Delta Lake, and how do commands like `VACUUM`, `MERGE`, or `OPTIMIZE` play a role?
-2. How does Delta Lake become a single source of truth in a data architecture?
-3. Does a Delta table contain single or multiple files for history, metadata, and data?
-4. What are the advantages of using Delta Lake over a traditional data lake?
-5. In Databricks architecture, which part does the web application belong to, and why? Control plane
-6. What operations need to be performed outside a repository (e.g., pull, push, commit, clone)?
-7. How does branching provide an advantage of using a repository over notebook versioning?
-8. What makes Delta Lake ACID compliant?
-9. How can you avoid duplicates during data processing  in Delta Lake? using the `MERGE` command
-10. When to use the `INSERT OVERWRITE` command in Delta Lake?
-11. How does Z-Ordering improve query performance in Delta Lake?
-12. Why might the `COPY INTO` command not work in a specific code scenario? [reference](https://docs.databricks.com/sql/language-manual/delta-copy-into.html)
-13. What is the difference between using `EXCEPT` or `DROP` on violation in Databricks Delta Live Tables (DLT)? [reference](https://docs.databricks.com/workflows/delta-live-tables/delta-live-tables-expectations.html)
-14. When should you use the "Grant All" privileges in Unity Catalog?
-15. When to use the "Grant Usage" privilege in Unity Catalog?
-16. What are the advantages of using array functions in Spark?
-17. How do you interpret `processingTime = "5 seconds"` in a Databricks streaming context?
-18. Refer practice exam Question 36, particularly in a continuous production environment?
-19. Which physical object should you create for 10 tables so that other teams can use them efficiently?
-20. Delete metadata but retain the files in Delta Lake? when using an external table
-21. When to use "Streaming Live" in a Databricks (refer to practice exam)?
-22. How would you use the `COMMENT` statement to mark a table containing PII data in Databricks? Create table `<tbl>` comment "Contains PII"
-23. How do you describe a database like `customer360` to retrieve its path in Databricks?
-24. What is the advantage of using a gold table over a silver table in Delta Lake?
-25. How do bronze tables differ from raw tables in Delta Lake?
-26. Refer practice exam Question 31, particularly focusing on the transition from silver to bronze code?
-27. How can you create a dependent task in a Delta Live Tables (DLT) pipeline?
-28. What techniques can be used to speed up query execution in Databricks?
-29. How can you prevent a particular block of code from running on Sundays?
-30. Where can you view Data Quality metrics in a Delta Live Tables (DLT) pipeline?
-31. How can you execute a Delta Live Tables (DLT) pipeline?
-32. How can you save costs by using a serverless endpoint or by controlling DBU in a SQL warehouse?
-33. How should you address a manager's concerns about over-costing after a project release, and what strategies can be used to save costs?
-34. Refer practice exam Question 40
-35. How does adding an auto-stop feature in a SQL endpoint reduce cluster costs?
-36. Refer practice exam Question 1?
-37. Refer practice exam Question 3?
-38. What are the differences between using `spark.table("mytable")`, `spark.delta.table("mytable")`, and `spark.sql("mytable")` in PySpark?
-39. What is the JDBC driver name for SQLite?
-40. How would you create an `all_transaction` table from `march_transaction` and `april_transaction` tables without duplicates - using join, merge, or union?
-41. Refer practice exam Question 27?
-42. Refer practice exam Question 33?
-43. How can you check the failed status of a task in a Delta Live Tables (DLT) pipeline?
-44. For practice exam Question 42, when should you use a webhook or an email alert?
-45. How can using cluster pools speed up query execution in Databricks?
+
+1. **Why might data not be available in a Delta Lake table?**
+   * *Hint: Consider commands like `vacuum`, `merge`, or `optimize`.*
+2. **What does Delta Lake become in the context of a data platform?**
+   * *Hint: Think about the concept of a single source of truth.*
+3. **What does a Delta table contain in terms of history, metadata, and data?**
+   * *Hint: Does it have single or multiple files?*
+4. **What is an advantage of Delta Lake over a traditional data lake?**
+5. **Which component is a web application a part of in Databricks architecture?**
+   * *Hint: Control plane or Data plane?*
+6. **What operations need to be done outside of a Databricks repo?**
+   * *Hint: Consider operations like pull, push, commit, or clone.*
+7. **What is an advantage of using a repo over notebook versioning in Databricks?**
+   * *Hint: Consider branching.*
+8. **Is Delta Lake ACID compliant?**
+9. **How can you avoid duplicates when merging data in a Delta Lake table?**
+   * *Hint: `MERGE` command.*
+10. **What should you consider when using the `INSERT OVERWRITE` command?**
+11. **What is the purpose of using Z-ordering in Databricks?**
+    * *Hint: For query performance optimization.*
+12. **Why might the `COPY INTO` command not work in a particular code block?**
+    * *Hint: [Refer to this documentation](https://docs.databricks.com/sql/language-manual/delta-copy-into.html).*
+13. **What happens when using `Expect` or `Drop` on violation in Delta Live Tables (DLT)?**
+    * *Hint: [Refer to this documentation](https://docs.databricks.com/workflows/delta-live-tables/delta-live-tables-expectations.html).*
+14. **When should you use `GRANT ALL PRIVILEGES` in Unity Catalog?**
+15. **When should you use `GRANT USAGE` in Unity Catalog?**
+16. **What is an advantage of using array functions in Spark?**
+17. **How do you set `processingTime` to 5 seconds in a streaming query?**
+    * *Hint: Refer to the practice exam question.*
+18. **How do you configure a streaming query for continuous processing in a production environment?**
+    * *Hint: Refer to practice exam Q36.*
+19. **Which physical object should you create for 10 tables so that other teams can use them in Databricks?**
+20. **How can you delete metadata but retain the data files in a Delta table?**
+    * *Hint: Consider the concept of an external table.*
+21. **What happens when a stream is marked as "Streaming Live" in Databricks?**
+    * *Hint: Refer to the practice exam question.*
+22. **How can you mark a table as containing PII data in Databricks?**
+    * *Hint: Use a `comment` during table creation.*
+23. **How can you describe a database in Databricks to get the path for `customer360`?**
+24. **What is the advantage of a gold table over a silver table in Delta Lake?**
+25. **What is the difference between a bronze table and a raw table in Delta Lake?**
+26. **How do you identity silver or bronze in Databricks?**
+    * *Hint: Refer to practice exam Q31.*
+27. **How do you create dependent tasks in a Delta Live Tables (DLT) pipeline?**
+28. **How can you speed up query execution in Databricks?**
+    * *Hint: Refer to the practice exam question.*
+29. **How can you prevent a specific block of code from running on Sundays in Databricks?**
+30. **Where can you see data quality metrics in Delta Live Tables (DLT)?**
+31. **How can you execute a Delta Live Tables (DLT) pipeline?**
+32. **How can you save costs using a serverless SQL warehouse or control DBU usage?**
+33. **If a manager is concerned about project over-costing, how can you save costs in Databricks?**
+    * *Hint: Consider the impact of using serverless endpoints, auto-stop, etc.*
+34. **How can you reduce cluster costs in Databricks?**
+    * *Hint: Consider adding an auto-stop setting in a SQL endpoint.*
+35. **Refer question Q40 from the practice exam?**
+36. **Refer question Q1 from the practice exam?**
+37. **Refer question Q3 from the practice exam?**
+38. **Which command or method is more appropriate for accessing a table in PySpark: `spark.table("mytable")`, `spark.delta.table("mytable")`, or `spark.sql("mytable")`?**
+39. **What is the JDBC driver name for SQLite when connecting via Spark?**
+40. **Given two tables, `march_transaction` and `april_transaction`, how can you create a new table `all_transaction` without duplicates?**
+    * *Hint: Consider using join, merge, or union.*
+41. **Refer question Q27 from the practice exam?**
+42. **Refer question Q33 from the practice exam?**
+43. **How do you check the failed status of a task in a Delta Live Tables (DLT) pipeline?**
+44. **Which should be used to trigger alerts in Databricks: a webhook or an email alert?**
+45. **How can you speed up query execution using cluster pools in Databricks?**
 
 ## Lessons Learned
 
